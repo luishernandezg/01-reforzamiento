@@ -1,6 +1,7 @@
 import React from "react";
+import { Contador } from "./components/Contador";
 // import { ObjetosLoterales } from "./typescript/ObjetosLoterales";
-import { Funciones } from "./typescript/Funciones";
+// import { Funciones } from "./typescript/Funciones";
 // import { TiposBasicos } from "./typescript/TiposBasicos";
 
 const App = () => {
@@ -10,7 +11,8 @@ const App = () => {
       <hr />
       {/* <TiposBasicos /> */}
       {/* <ObjetosLoterales /> */}
-      <Funciones />
+      {/* <Funciones /> */}
+      <Contador />
     </div>
   );
 };
