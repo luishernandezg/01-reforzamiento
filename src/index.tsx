@@ -6,7 +6,9 @@ const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  // TODO StrickMode make that my app run twise useEfecs 
+  // <React.StrictMode>
+    
+  // </React.StrictMode>
+  <App />
 );
