@@ -8,19 +8,19 @@ import { Usuarios } from "./components/Usuarios";
 // import { TiposBasicos } from "./typescript/TiposBasicos";
 
 const App = () => {
-  return (
-    <div className="mt-2">
-      <h1>Introduccion a TS - react</h1>
-      <hr />
-      {/* <TiposBasicos /> */}
-      {/* <ObjetosLoterales /> */}
-      {/* <Funciones /> */}
-      {/* <Contador /> */}
-      {/* <ContadorConHook /> */}
-      {/* <Login /> */}
-      <Usuarios />
-    </div>
-  );
+    return (
+        <div className="mt-2">
+            <h1>Introduccion a TS - react</h1>
+            <hr />
+            {/* <TiposBasicos /> */}
+            {/* <ObjetosLoterales /> */}
+            {/* <Funciones /> */}
+            {/* <Contador /> */}
+            {/* <ContadorConHook /> */}
+            {/* <Login /> */}
+            <Usuarios />
+        </div>
+    );
 };
 
 export default App;
