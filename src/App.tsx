@@ -1,5 +1,6 @@
 import React from "react";
 import { Login } from "./components/Login";
+import { Usuarios } from "./components/Usuarios";
 // import { Contador } from "./components/Contador";
 // import { ContadorConHook } from "./components/ContadorConHook";
 // import { ObjetosLoterales } from "./typescript/ObjetosLoterales";
@@ -16,7 +17,8 @@ const App = () => {
       {/* <Funciones /> */}
       {/* <Contador /> */}
       {/* <ContadorConHook /> */}
-      <Login />
+      {/* <Login /> */}
+      <Usuarios />
     </div>
   );
 };
